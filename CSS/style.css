@@ -1,0 +1,125 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top; 
+}
+.logo {
+    display:flex;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+}
+.topnav {
+    display:flex;
+    padding: 1%;
+    align-items: center;
+}
+.navitems ul {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navitems {
+    display:flex;
+    margin-left:auto;
+}
+.navitems ul li {
+    padding: 0 20px;
+}
+ul li {
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    text-align: center;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+.flexContainer {
+    display:flex;
+    width: 33%;
+    padding:15px;
+    flex-direction:row;
+    align-items:baseline;
+    align-content:space-around;
+    justify-content:space-between;
+}
+.wireFraming {
+    height:400px;
+    padding:75px;
+    margin:50px;
+}
+.userEmpathy {
+    height:400px;
+    padding:75px;
+    margin:10px;
+}
+.commnColab {
+    height:400px;
+    padding:75px;
+    margin:50px;
+}
+.workGrid {
+    display:grid;
+    grid-template-rows: 33% 33% 33% 33%;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+    "cookingMat projInfo1 projInfo1"
+    "trekIt projInfo2 projInfo2"
+    "getMo projInfo3 projInfo3";
+}
+.cookingMat {
+    grid-area: cookingMat;
+}
+.trekIt {
+    grid-area: trekIt;
+}
+.getMo {
+    grid-area: getMo;
+}
+.projInfo1 {
+    grid-area: projInfo1;
+}
+.projInfo2 {
+    grid-area: projInfo2;
+}
+.projInfo3 {
+    grid-area: projInfo3;
+}
+@media screen and (max-width:600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+    .wireFraming {
+        width:100%;
+    }
+    .userEmpathy {
+        width:100%;
+    }
+    .commnColab {
+        width:100%;
+    }
+    #workGrid {
+        grid-template-rows: 25% 25% 25% 25% 25% 25%;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            "cookingMat"
+            "projInfo1"
+            "trekIt"
+            "projInfo2"
+            "getMo"
+            "projInfo3"
+        ;
+    }
+}
+.footer {
+    background-color: #373738;
+}
+.footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
