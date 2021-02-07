@@ -1,8 +1,10 @@
 console.log("You index.js file is loaded correctly!");
-$( ".navitems ul li" ).hover(
-    function() {
-      $( this ).addClass( "hover" );
-    }, function() {
-      $( this ).removeClass( "hover" );
-    }
-  );
+console.log("You index.js file is loaded correctly!");
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
