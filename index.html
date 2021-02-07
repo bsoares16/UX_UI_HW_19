@@ -5,24 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbara's Portfolio</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Nav Bar -->
-   <nav class="topnav">
+   <nav class="header">
         <div class="logo">
             <div class="logopic"><img src= "images/Logo2.png" alt="Dinosaur with initials B and S"/></div>
             <p>Barbara Soares</p>
         </div>
-        <div class="navitems">
+        <div class="topnav">
+            <a class="active" href="#home">About Me</a>
+            <a href="#news">My Work</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">Resume</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+          </div>
+        <!--<div class="navitems">
             <ul>
                 <li class="inline-block">About Me</li>
                 <li class="inline-block">Work</li>
                 <li class="inline-block">Contact</li>
                 <li class="inline-block">Resume</li>
             </ul>
-        </div>
+        </div>-->
     </nav>
     <!-- Main content -->
+    <main>
+        <h1>Welcome, Bem-vindo, Bienvenido</h1>
     <section class="content">
         <div class="heroImg">
             <img src="images/me.jpeg" height= "500px">
@@ -39,7 +52,7 @@
     </section>  
     <!--  My UX Skills section coded using CSS flex -->
      <section class="mySkills">
-         <h1>My UX Skills</h1>
+         <h2>My UX Skills</h2>
          <div class="flexContainer">
              <div class="wireFraming">
                  <img src="images/wireframing.png" Alt="sketch of a website layout">
@@ -63,10 +76,10 @@
      </section>
 <!--  My Work section constructed using CSS Grid -->
         <section class="myWork">
-        <h1>My Work</h1>
+        <h2>My Work</h2>
         <div class="workGrid">
             <div class="cookingMat">
-                <img src="images/macbook-pro-space-gray-mockup-on-the-wooden-table.jpg" Height="200px" alt="mackbook showing new website prototype">
+                <img src="images/bright-office-environment-mockup-with-macbook-air.jpg"  alt="mackbook showing new website prototype">
             </div>
             <div class="projInfo1">
                 <h4>Cooking Matters Non-Profit Project</h4>
@@ -74,7 +87,7 @@
                 <button>View the Project</button>
             </div>
             <div class="trekIt">
-                <img src="images/iphone-xs-mockup-with-macbook-air-in-the-background.jpg" Height="200px" alt="Hand holding a phone with showing travel app">
+                <img src="images/iphone-xs-mockup-with-macbook-air-in-the-background.jpg" alt="Hand holding a phone with showing travel app">
             </div>
             <div class="projInfo2">
                 <h4>TrekIt Mobile Travel App Project</h4>
@@ -82,19 +95,30 @@
                 <button>View the Project</button>
             </div>
             <div class="getMo">
-                <img src="images/holding-iphone-xs-mockup (2).jpg" Height="300px" alt="Hand holding a phone with mockup of app">
+                <img src="images/getmo_walkingmobile.jpg" alt="Hand holding a phone with mockup of app">
             </div>
             <div class="projInfo3">
                 <h4>GetMo Project</h4>
                 <p></p>
                 <button>View the Project</button>
             </div>
-            
-            <div class="moreProj">
-                <h3>View all Projects</h3>
         </div>
 </section>
+<div class="moreProj">
+    <h1>View all Projects</h1>
+    </div>
+</main>
 <footer class="footer">
+    <div class="topnav">
+        <a class="active" href="#home">About Me</a>
+        <a href="#news">My Work</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+      </div>
+    <!--
     <div class="inline-block">
         <ul>
             <li class="inline-block">About Me</li>
@@ -102,8 +126,8 @@
             <li class="inline-block">Contact</li>
             <li class="inline-block">Resume</li>
         </ul>
+        -->
     </div>
 </footer> 
 </body>
-<script src="js/index.js"></script>
 </html>
