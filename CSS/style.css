@@ -221,14 +221,18 @@ ul li {
 }
 
 .footer {
+    display:flex;
     background-color: #6b666c;
 }
 .lets-connect {
-    display:flex;
-    flex-direction: column;
+    display: flex;
     justify-content: flex-end;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 80px;
+    padding-left:900px;
 }
+
 /* .footer ul {
     display: inline-block;
     vertical-align: top;
