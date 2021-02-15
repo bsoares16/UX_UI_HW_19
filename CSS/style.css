@@ -23,6 +23,23 @@ h1 {
     background-color: #6b666c;
     overflow:hidden;
 }
+.button {
+  background-color: #434343;
+  transition-duration:0.4s;
+  border: none;
+  color: #E39D90;
+  padding: 8px 18px;
+  border-radius:12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover {
+    background-color: #434343;
+    border: 4px solid #E39D90;;
+    color: #E39D90;
+}
 .navitems ul {
     display:flex;
     justify-content: flex-end;
@@ -37,13 +54,13 @@ h1 {
     font-size: 18px;
 }
 /* Change the color of links on hover */
-.navitems ul li:hover {
+/* .navitems ul li:hover {
     background-color: #ddd;
     color: black;
 }
 .navitems ul li {
     padding: 14px 16px;
-}
+} */
 .topnav {
     overflow: hidden;
     background-color:transparent;
@@ -65,8 +82,8 @@ h1 {
   }
   
 .topnav a.active {
-    background-color: transparent;
-    color: white;
+    background-color: #FFBEB1;
+    color: #434343;
   }
   
 .topnav .icon {
