@@ -166,6 +166,7 @@ ul li {
     border-radius: 5px; /* 5px rounded corners */
     padding:20px;
     margin:auto;
+    overflow:auto;
   }
   /* On mouse-over, add a deeper shadow */
 .card:hover {
@@ -178,6 +179,7 @@ ul li {
     padding:20px;
     margin:auto;
     width:100%;
+    overflow:auto;
   }
   /* On mouse-over, add a deeper shadow */
 .card-1:hover {
@@ -254,12 +256,8 @@ ul li {
     background-color: #6b666c;
 }
 .lets-connect {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    padding-right: 80px;
-    padding-left:900px;
+    text-align:center;
+    padding-left:530px;
 }
 
 /* .footer ul {
