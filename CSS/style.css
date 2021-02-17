@@ -258,6 +258,17 @@ ul li {
     text-align:center;
     padding-left:530px;
 }
+li.linkedin {
+  float:left;
+}
+ul.social{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 /* .footer ul {
     display: inline-block;
@@ -291,3 +302,4 @@ ul li {
       margin-bottom: 20px;
     }
   }
+  
